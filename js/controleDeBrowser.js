@@ -13,8 +13,8 @@ var nomeDoBrowser = (function (agent) {
 
 if(nomeDoBrowser != "Chrome"){
     document.body.innerHTML = `
-        <div class="main">
-            <h1 class="subtitle">Este site só funciona com o Google Chrome</h1>
+        <div class="principal">
+            <h1 class="subtitulo">Este site só funciona com o Google Chrome</h1>
         </div>
     `
 }
